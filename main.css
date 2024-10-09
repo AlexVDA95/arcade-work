@@ -31,7 +31,7 @@ h2 {
   color: hsl(0, 0%, 40%);
   display: block;
   font-size: 0.86em;
-  margin: auto auto 3rem auto;
+  margin: 0.5rem auto 3rem auto;
   text-align: center;
   letter-spacing: 4px;
 }
