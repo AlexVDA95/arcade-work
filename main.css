@@ -12,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
 }
 h1 {
   font-family: "Poppins", sans-serif;
@@ -31,16 +30,30 @@ h2 {
   text-transform: uppercase;
   color: hsl(0, 0%, 40%);
   display: block;
-  font-size: 0.8em;
-  margin: auto auto;
+  font-size: 0.86em;
+  margin: auto auto 3rem auto;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+}
+img {
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.game-box {
+  width: 25rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1.8rem;
+  margin: 1rem auto;
+  border: 1px solid hsl(0, 0%, 60%);
+  background-color: white;
 }
 .game-name {
   font-family: "Poppins";
   font-weight: 600;
   font-weight: bold;
-  margin: auto auto;
+  margin: -0.5rem auto;
   display: block;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
@@ -59,26 +72,6 @@ h2 {
   letter-spacing: -0.06em;
   font-size: 0.92em;
 }
-.footer {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  padding: 0.9rem 2rem 3rem 2rem;
-  font-size: 0.7em;
-}
-.game-box {
-  width: 25rem;
-  padding: 2rem;
-  text-align: center;
-  border-radius: 1.8rem;
-  margin: 2rem auto;
-  border: 1px solid hsl(0, 0%, 60%);
-  background-color: white;
-}
-img {
-  width: 100%;
-  border-radius: 1rem;
-  object-fit: cover;
-}
 .button {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -86,8 +79,18 @@ img {
   padding: 1rem 1.75rem;
   text-decoration: none;
   border-radius: 2.5rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.5rem;
   border: 1px solid hsl(0, 0%, 60%);
   background-color: transparent;
   font-size: 0.8em;
+}
+.footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 1rem 2rem 3rem 2rem;
+  font-size: 0.7em;
+}
+.button:hover {
+  background-color: gray;
+  color: whitesmoke;
 }
